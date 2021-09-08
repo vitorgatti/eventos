@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #614ea6;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease-in;
+  padding-left: 10px;
+}
+
+.navbar-brand {
+  padding-left: 10px;
+}
+
+.nav-item a:hover {
+  color: #f21667;
+}
