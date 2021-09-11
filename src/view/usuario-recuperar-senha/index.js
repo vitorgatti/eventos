@@ -25,12 +25,11 @@ function UsuarioRecuperarSenha(){
           <h3 className="mb-3 fw-bold"> Recuperar Senha</h3>
           <input onChange={(e) => setEmail(e.target.value)} type="email" className="form-control my-2" placeholder="Email"></input>
 
-          <div className="msg my-4 text-center">
-            <span>{msg}</span>
-          </div>
+          <div className="msg my-4 text-center"><span>{msg}</span></div>
 
           <button onClick={recuperarSenha} type="button" className="btn btn-lg btn-block btn-enviar"> Recuperar Senha
           </button>
+          
         </form>
     </>
   );

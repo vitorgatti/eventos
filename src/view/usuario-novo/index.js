@@ -21,6 +21,7 @@ function NovoUsuario(){
     if(!email || !senha) {
       setMsgTipo('erro')
       setMsg('É necessário informar o e-mail e senha para fazer o cadastro!')
+      setCarregando(0);
       return;
     }
 
@@ -53,6 +54,7 @@ function NovoUsuario(){
           <div className="msg-login text-black text-center my-5 text-center">
               {msgTipo === 'sucesso' && <span><strong>Wow!</strong> Usuário cadastrado com sucesso! &#128526;</span>}
               {msgTipo === 'erro' && <span><strong>Ops!</strong> {msg} &#128546;</span>}
+              
           </div>
         </form>
       </div>
