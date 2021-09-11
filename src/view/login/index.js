@@ -31,7 +31,7 @@ function Login(){
       
       <form className="form-signin mx-auto">
       <div className='text-center mb-4'>
-        <h1 className="h3 mb-3 text-white fw-bold">Login</h1>
+        <h1 className="h3 m-3 text-white fw-bold">Login</h1>
       </div>      
         
         <input onChange={(e) => setEmail(e.target.value)} type="email" class="form-control my-2" id="inputEmail" placeholder="Email" />        
@@ -45,7 +45,7 @@ function Login(){
         </div>
 
       <div className="opcoes-login mt-5 text-center">
-        <a href="#" className="mx-2">Recuperar Senha</a>
+        <Link to="/usuariorecuperarsenha" className="mx-2">Recuperar Senha</Link>
         <span className="text-white">&#9733;</span>
         <Link to="novousuario" className="mx-2">Quero me Cadastrar</Link>
       </div>
