@@ -34,10 +34,10 @@ function Login(){
         <h1 className="h3 m-3 text-white fw-bold">Login</h1>
       </div>      
         
-        <input onChange={(e) => setEmail(e.target.value)} type="email" class="form-control my-2" id="inputEmail" placeholder="Email" />        
-        <input onChange={(e) => setSenha(e.target.value)} type="password" class="form-control my-2" id="floatingPassword" placeholder="Senha" />
+        <input onChange={(e) => setEmail(e.target.value)} type="email" className="form-control my-2" id="inputEmail" placeholder="Email" />        
+        <input onChange={(e) => setSenha(e.target.value)} type="password" className="form-control my-2" id="floatingPassword" placeholder="Senha" />
         
-        <button onClick={logar} class="w-100 btn btn-lg btn-block btn-login" type="button">Logar</button>
+        <button onClick={logar} className="w-100 btn btn-lg btn-block btn-login" type="button">Logar</button>
 
         <div className="msg-login text-white text-center my-5 text-center">
             {msg === 'sucesso' && <span><strong>Wow!</strong> Você está conectado! &#128526;</span>}
