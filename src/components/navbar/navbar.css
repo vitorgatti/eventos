@@ -6,11 +6,6 @@
   color: #fff;
   text-decoration: none;
   transition: 0.3s ease-in;
-  padding-left: 15px;
-}
-
-.fas {
-  padding-left: 10px;
 }
 
 .nav-item a:hover {
