@@ -92,7 +92,7 @@ function EventoCadastro(){
           <label>Upload da Foto</label>
           <input onChange={(e) => setFoto(e.target.files[0])} type="file" className="form-control"/>
         </div>        
-        <div className="row">
+        <div className="mx-auto row">
           {
             carregando > 0 ?
               <div className="spinner-border text-danger mx-auto" role="status"><span className="sr-only"></span></div> 
