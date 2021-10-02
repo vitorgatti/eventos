@@ -14,10 +14,11 @@ function App() {
   return (
     <Provider store={store}>
       <Router>
-        <Route exact path='/login' component = {Login} />
-        <Route exact path='/novousuario' component = {NovoUsuario} />
-        <Route exact path='/usuariorecuperarsenha' component = {UsuarioRecuperarSenha} />
         <Route exact path='/' component = {Home} />
+        <Route exact path='/eventos/:parametro' component = {Home} />
+        <Route exact path='/novousuario' component = {NovoUsuario} />
+        <Route exact path='/login' component = {Login} />
+        <Route exact path='/usuariorecuperarsenha' component = {UsuarioRecuperarSenha} />
         <Route exact path='/eventocadastro' component = {EventoCadastro} />
       </Router>
     </Provider>
